@@ -60,6 +60,8 @@ on GitHub.
   constructors via the new `ExecutableInvoker` available in the `ExtensionContext`.
 * A subset of the invocations of parameterized or dynamic tests can now be selected via
   the new `IterationSelector` discovery selector when launching the JUnit Platform.
+* `@MethodSource` factory methods can now accept arguments resolved by registered
+  `ParameterResolver`.
 
 
 [[release-notes-5.9.0-M1-junit-vintage]]
